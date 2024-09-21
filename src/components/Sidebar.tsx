@@ -151,7 +151,7 @@ const Sidebar = (() => {
             </ListItemButton>
           </ListItem>
           <ListItem>
-            <ListItemButton disabled onClick={() => navigate('/crm')}>
+            <ListItemButton onClick={() => navigate('/crm')}>
               <Dashboard />
               <ListItemContent>
                 <Stack
@@ -159,7 +159,6 @@ const Sidebar = (() => {
                   justifyContent={'space-between'}
                 >
                   <Typography level="title-sm">CRM</Typography>
-                  <Typography level='title-sm' color='warning'>Soon</Typography>
                 </Stack>
               </ListItemContent>
             </ListItemButton>
